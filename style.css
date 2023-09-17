@@ -644,6 +644,10 @@ video {
   margin-top: 25%;
 }
 
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -692,14 +696,6 @@ video {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -724,10 +720,6 @@ video {
   width: 1.5rem;
 }
 
-.w-8 {
-  width: 2rem;
-}
-
 .w-\[120px\] {
   width: 120px;
 }
@@ -746,14 +738,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-9 {
-  width: 2.25rem;
 }
 
 .max-w-\[1500\] {
@@ -959,10 +943,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -991,11 +971,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pb-1 {
@@ -1083,28 +1058,12 @@ video {
   line-height: 1rem;
 }
 
+.text-\[44px\] {
+  font-size: 44px;
+}
+
 .text-\[42px\] {
   font-size: 42px;
-}
-
-.text-\[100\%\] {
-  font-size: 100%;
-}
-
-.text-\[43px\] {
-  font-size: 43px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[45px\] {
-  font-size: 45px;
-}
-
-.text-\[10\%\] {
-  font-size: 10%;
 }
 
 .font-bold {
@@ -1155,22 +1114,6 @@ video {
 .text-zinc-700 {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[full\] {
-  color: full;
-}
-
-.text-\[100\] {
-  color: 100;
-}
-
-.text-\[43\] {
-  color: 43;
 }
 
 .shadow-lg {
@@ -1394,10 +1337,6 @@ video {
     margin-top: -0.75rem;
   }
 
-  .md\:-mt-2 {
-    margin-top: -0.5rem;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -1414,10 +1353,6 @@ video {
     height: 1.75rem;
   }
 
-  .md\:h-9 {
-    height: 2.25rem;
-  }
-
   .md\:h-8 {
     height: 2rem;
   }
@@ -1430,16 +1365,16 @@ video {
     width: 33.333333%;
   }
 
+  .md\:w-8 {
+    width: 2rem;
+  }
+
   .md\:w-\[80\%\] {
     width: 80%;
   }
 
   .md\:w-\[95\%\] {
     width: 95%;
-  }
-
-  .md\:w-8 {
-    width: 2rem;
   }
 
   .md\:max-w-\[35\%\] {
@@ -1596,16 +1531,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[4px\] {
-    font-size: 4px;
-  }
-
   .md\:text-\[44px\] {
     font-size: 44px;
-  }
-
-  .md\:text-\[45px\] {
-    font-size: 45px;
   }
 
   .md\:font-bold {
@@ -1730,25 +1657,5 @@ video {
   .\32xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .\32xl\:text-\[39px\] {
-    font-size: 39px;
-  }
-
-  .\32xl\:text-\[42px\] {
-    font-size: 42px;
-  }
-
-  .\32xl\:text-\[45px\] {
-    font-size: 45px;
-  }
-
-  .\32xl\:text-\[40px\] {
-    font-size: 40px;
-  }
-
-  .\32xl\:text-\[px\] {
-    color: px;
   }
 }
