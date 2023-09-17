@@ -1070,6 +1070,10 @@ video {
   font-size: 45px;
 }
 
+.text-\[4px\] {
+  font-size: 4px;
+}
+
 .font-bold {
   font-weight: 700;
 }
