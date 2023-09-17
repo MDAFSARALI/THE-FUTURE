@@ -1394,6 +1394,10 @@ video {
     margin-top: -0.75rem;
   }
 
+  .md\:-mt-2 {
+    margin-top: -0.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1738,6 +1742,10 @@ video {
 
   .\32xl\:text-\[45px\] {
     font-size: 45px;
+  }
+
+  .\32xl\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .\32xl\:text-\[px\] {
